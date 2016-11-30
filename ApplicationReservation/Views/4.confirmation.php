@@ -1,35 +1,51 @@
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="/Applications/MAMP/htdocs/ApplicationReservation/stylesheet.css">
-	<title>Confirmation</title> </head>
+	<link rel="stylesheet" type="text/css" href="/ApplicationReservation/views/styles.css">
+
+    <title>Confirmation</title>
+
+</head>
+
 <body>
-<style> table,tr {border: 1px solid black;}</style>
-<h1>Validation des réservations</h1><hr>
+
+<h1>Validation des réservations</h1>
+<hr>
+
 <?php
 $num=$_SESSION['reservation'][1];
 $assurance=$_SESSION['reservation'][2];
 $people=$_SESSION['names'];
 $price=0;
-for ($i=0;$i<$num;$i++){
-	if ($people[$i][1]<=12) {
+
+for ($i=0;$i<$num;$i++)
+{
+	if ($people[$i][2]<=12)
+	{
 		$price=$price+10;
 	}
-	else {
+	else
+    {
 		$price=$price+15;
 	}
 }
-if ($assurance=='true') {
+if ($assurance=='true')
+{
 	$price=$price+20;
 }
-$account="000-0000000-00";
+$account="BE99 0123 4567 8910";
 ?>
 
-Votre demande a bien été enregistrée. <br>Merci de bien vouloir verser la somme de <?php echo $price?> euros sur le compte <?php echo $account?>.
-<br>Vous recevrez les billets par mail lorsque nous aurons reçu la somme due.<br>
-Bon voyage!
+<p>Votre demande a bien été enregistrée. </p>
+<p>Merci de bien vouloir verser la somme de <b><?php echo $price?> euros</b> sur le compte <b><?php echo $account?></b> pour la date
+    du <b><?php echo date("d-m-Y",$paydate)?></b>.</p>
+<p>Vous recevrez les billets par mail lorsque nous aurons reçu la somme due.</p>
+<p>Bon voyage!</p>
 
-<form method='post' action='/ApplicationReservation/controllers/accueil.php' name="page" value="">
- 	<input type='submit' value='Retour à la page d accueil'/>
- </form>
+<form method='post' action='/ApplicationReservation/accueil.php' name="page" value="">
+ 	<input type='submit' value='Retour à la page d&#39;accueil'>
+</form>
+
 </body>
+
 </html>

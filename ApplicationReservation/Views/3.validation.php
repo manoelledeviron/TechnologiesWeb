@@ -1,49 +1,69 @@
 <html>
+
 <head>
-  <link rel="stylesheet" type="text/css" href="/stylesheet.css">
-  <title>Validation</title> </head>
+    <link rel="stylesheet" type="text/css" href="/ApplicationReservation/views/styles.css">
+
+    <title>Validation</title>
+
+</head>
+
 <body>
-<style> table,tr {border: 1px solid black;}</style>
-<h1>Validation des réservations</h1> <hr>
+
+<h1>Validation des réservations</h1>
+<hr>
+
 <table>
-			<tr>
-				<td> Destination </td>
-				<td> <?php echo $_SESSION['reservation'][0] ?> </td>
-			</tr>
-			<tr>
-				<td>Nombre de places</td>
-				<td><?php echo $_SESSION['reservation'][1]?></td>
-			</tr>
-      <tr>
-        <td>Assurance Annulation</td>
+    <tr>
+        <th> Destination </th>
+        <th>Nombre de places</th>
+        <th>Assurance Annulation</th>
+    </tr>
+
+    <tr>
+        <td><?php echo $_SESSION['reservation'][0] ?> </td>
+        <td><?php echo $_SESSION['reservation'][1]?></td>
         <td><?php echo $_SESSION['reservation'][2]?></td>
-      </tr>
+    </tr>
+
+</table>
+
+<table>
+    <tr>
+        <th>Noms</th>
+        <th>Prénoms</th>
+        <th>Ages</th>
+        <th>Under 12?</th>
+    </tr>
 <?php
 for ($j=0;$j<count($_SESSION['names']);$j++)
 { ?>
-  <tr>
-    <td>Nom</td>
-    <td> <?php echo $_SESSION['names'][$j][0]?></td>
-  </tr>
-  <br>
-  <tr>
-    <td>Age</td>
-    <td><?php echo $_SESSION['names'][$j][1]?></td>
-      <br>
-  </tr>
+    <tr>
+        <td><?php echo $_SESSION['names'][$j][0]?></td>
+        <td><?php echo $_SESSION['names'][$j][1]?> </td>
+        <td><?php echo $_SESSION['names'][$j][2]?></td>
+        <td><?php if ($_SESSION['names'][$j][2]<=12) {echo "yes";} else {echo "no";};?></td>
+    </tr>
+
+    <br>
+
   <?php
 }
 ?>
 
-  </table>
+</table>
 
- <form method='post' action='confirmation.php'>
+ <form method='post' action='confirmation.php' name="page" value="confirmation">
  	<input type='submit' value='Etape suivante'/>
-</form> <form method='post' action='traitement.php'>
+</form>
+
+<form method='post' action='traitement.php' name="page" value="traitement">
  	<input type='submit' value='Retour à la page précédente'/>
-</form> <form method='post' action='annulation.php'>
+</form>
+
+<form method='post' action='annulation.php' name="page" value="annulation">
  	<input type='submit' value='Annuler la réservation'/>
- </form>
+</form>
 
 </body>
+
 </html>

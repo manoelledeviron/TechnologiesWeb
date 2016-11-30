@@ -1,10 +1,11 @@
 <?php
 include_once('/Applications/MAMP/htdocs/ApplicationReservation/model.php');
 session_start();
+
 if (!ISSET($_SESSION['reservation']))
 {
   $destination="destination";
-  $number=0;
+  $number=1;
   $assurance="false";
   $reserv=new Reservation($destination,$number,$assurance);
 }
