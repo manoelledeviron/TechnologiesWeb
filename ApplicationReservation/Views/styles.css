@@ -1,0 +1,28 @@
+body {
+    background-color: powderblue;
+    margin-left: 40px;
+}
+h1 {
+    color: midnightblue;
+    text-align: center;
+}
+p {
+    color: black;
+}
+form {
+    margin-left: 20px;
+}
+table,td {
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    background-color: aliceblue;
+}
+table {
+    background-color: white;
+    width: 80%;
+}
+td {
+    height: 50px;
+    width: 25%;
+}
