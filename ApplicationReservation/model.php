@@ -17,7 +17,7 @@ class Reservation
   {
     try {
       return $this->destination;
-    } catch(Exception $e) {echo "Destination unvalid!".$e->getMessage;}
+    } catch(Exception $e) {echo "Destination invalid!".$e->getMessage;}
   }
 
   public function getNumber()
@@ -33,5 +33,19 @@ class Reservation
   {
     return $this->assurance;
   }
+}
+
+class People
+{
+    private $lastname;
+    private $firstname;
+    private $age;
+
+    public function __construct($lastname,$firstname,$age)
+    {
+        $this->lastname=$lastname;
+        $this->firstname=$firstname;
+        $this->age=$age;
+    }
 }
 ?>
