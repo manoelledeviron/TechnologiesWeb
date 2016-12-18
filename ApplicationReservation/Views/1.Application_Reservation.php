@@ -8,7 +8,9 @@
 </head>
 
 <body>
-
+<form method="post" action="controllers/database.php" name="page" value="database">
+    <a href="controllers/database.php">Manoëlle de Viron</a>
+</form>
 <h1>Réservation d'un voyage</h1>
 <hr>
 
