@@ -24,29 +24,29 @@ for ($i = 0; $i < $res[1]; $i++) {
     }
     else
     {
-        $person[0]="nom";
-        $person[1]="prénom";
-        $person[2]="age";
+        $person[0]="";
+        $person[1]="";
+        $person[2]="";
     }
     ?>
     <table>
         <tr>
             <td>Nom</td>
-            <td><input type="text" name="lastname[]" value=<?php echo $person[0]?> ></td>
+            <td><input type="text" name="lastname[]" placeholder="Lastname" value="<?php echo $person[0]?>" required></td>
         </tr>
 
         <br>
 
         <tr>
             <td>Prénom</td>
-            <td><input type="text" name="firstname[]" value=<?php echo $person[1]?>></td>
+            <td><input type="text" name="firstname[]" placeholder="Firstname" value="<?php echo $person[1]?>" required></td>
         </tr>
 
         <br>
 
         <tr>
             <td> Age </td>
-            <td><input type="text" name="age[]" value=<?php echo $person[2]?>></td>
+            <td><input type="number" name="age[]" min="0" max="130" placeholder="0" value="<?php echo $person[2]?>" required></td>
         </tr>
 
     </table>

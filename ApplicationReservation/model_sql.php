@@ -14,7 +14,7 @@ class Database
     private $database;
 
     //Creating the Database object
-    public function __construct($database,$host="localhost",$user="root",$password="root")
+    public function __construct($database="ApplicationReservations",$host="localhost",$user="root",$password="root")
     {
         $this->host=$host;
         $this->user=$user;
@@ -40,24 +40,9 @@ class Database
 
     }
 
-    //Adding a destination to the Database destinations(DestID,Destination) => Auto-Increment of the DestID
-    public function AddDestination($destination,$database) {
-        $try=$this->Select($database,'*','destinations','Destination',"$destination");
-        if (mysqli_num_rows($try)>0)
-        {
-            return $try;
-        }
-        $sql1=$this->Insert($database,'destinations','Destination',"$destination");
-        if (!$sql1)
-        {
-            echo "Error: " . $sql1 . "<br>" . $database->error;
-        }
-        return $sql1;
-    }
-
     //Adding a reservation to the Database ReservationsComplete(ResID,DestID,Assurance) => Auto-Increment of the ResID
-    public function AddReservation($database,$DestID,$assurance) {
-        $mysql="INSERT INTO ReservationsComplete(DestinationID,Assurance) VALUES ($DestID,$assurance)";
+    public function AddReservation($database,$destination,$assurance) {
+        $mysql="INSERT INTO ReservationsComplete(Destination,Assurance) VALUES ('$destination',$assurance)";
         $sql=$database->query($mysql);
         if (!$sql)
         {
@@ -67,20 +52,10 @@ class Database
     }
 
     //Adding a person to the Database people(FirstName,LastName,Age,ResID)
-    public function AddPeople($firstname,$lastname,$age,$database,$resID) {
-        $people=array("FirstName"=>$firstname,"LastName"=>$lastname);
-        $result=$database->query("SELECT * FROM people WHERE FirstName=$firstname,LastName=$lastname");
-        if (!$result)
-        {
-            $sql="INSERT INTO people(LastName,FirstName,Age,ResID) VALUES('$firstname','$lastname',$age,$resID)";
-            $result=$database->query($sql);
-            return $result;
-        }
-        else {
-            $sql="UPDATE people SET ResID=$resID Age=$age WHERE LastName=$lastname,FirstName=$firstname";
-            $result=$database->query($sql);
-            return $result;
-        }
+    public function AddPeople($lastname,$firstname,$age,$database,$resID) {
+        $sql="INSERT INTO people(FirstName,LastName,Age,ResID) VALUES('$firstname','$lastname',$age,$resID)";
+        $result=$database->query($sql);
+        return $result;
     }
 
     //Selecting an entire Table

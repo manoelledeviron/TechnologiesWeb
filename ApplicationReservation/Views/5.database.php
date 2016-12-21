@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="views/styles.css">
+    <link rel="stylesheet" type="text/css" href="/ApplicationReservation/views/styles.css">
     <title>Database</title>
     <style>
         table {
@@ -26,11 +26,12 @@
         <?php
         foreach($_SESSION['array'] as $array)
         {
-            $ResID=$array['people'][0][3];
+            $Res=$array['people'][0][3];
+            $PeopleID=$array['people'][0][4]
             ?>
             <tr>
-                <td><?php echo $ResID?> </td>
-                <td><?php echo $array["destination"][1]?></td>
+                <td><?php echo $Res?> </td>
+                <td><?php echo $array["destination"]?></td>
                 <td> <?php
                 foreach($array["people"] as $people)
                 {
@@ -40,8 +41,8 @@
                 ?>
                 </td>
                 <td> <?php echo $array['assurance']?></td>
-                <td><a href="modifier.php">Modifier</a></td>
-                <td><a href="supprimer.php">Supprimer</a></td>
+                <td><form method="post" action="modifier.php"><button name="Res" value="<?php echo $Res ?>">Modifier</button></form></td>
+                <td><form method="post" action="supprimer.php"><button name="Res" value="<?php echo $Res ?>">Supprimer</button></form></td>
             </tr>
         <?php
         }

@@ -8,9 +8,7 @@
 </head>
 
 <body>
-<form method="post" action="controllers/database.php" name="page" value="database">
-    <a href="controllers/database.php">Manoëlle de Viron</a>
-</form>
+
 <h1>Réservation d'un voyage</h1>
 <hr>
 
@@ -21,14 +19,14 @@
     <table>
         <tr>
             <td> Destination </td>
-            <td> <input type='text' name='destination' value=<?php echo $destination ?>></td>
+            <td> <input type='text' name='destination' placeholder='Destination' value="<?php echo $destination?>" required></td>
         </tr>
 
         <br>
 
         <tr>
             <td> Nombre de places </td>
-            <td> <input type='number' name='number' min="1" max="10" value=<?php echo $number ?> > </td>
+            <td> <input type='number' name='number' min="1" max="10" placeholder="0" value="<?php echo $number?>"  required> </td>
         </tr>
 
         <br>
@@ -55,5 +53,9 @@
 </form>
 
 </body>
-
+<footer style="position:absolute; bottom:0; width:95%; text-align:right;padding-right:30px;">
+    <form method="post" action="controllers/database.php" name="page" value="database">
+        <input style="background-color:powderblue;border-style:none" type="submit" value="by">Manoëlle de Viron
+    </form>
+</footer>
 </html>

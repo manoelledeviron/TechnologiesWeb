@@ -1,12 +1,14 @@
 body {
     background-color: powderblue;
     margin-left: 40px;
+    font: 15px "Georgia", sans-serif;
 }
 h1 {
     color: midnightblue;
     text-align: center;
 }
 p {
+    padding : 20px;
     color: black;
 }
 form {

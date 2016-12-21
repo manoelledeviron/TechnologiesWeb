@@ -18,52 +18,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="model_sql.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_sql.php">
+      <file leaf-file-name="confirmation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/confirmation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#6#97#0#PHP" expanded="true" />
-                <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-                <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
-                <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
-                <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
-                <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
-                <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
-                <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
-                <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-                <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-                <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-                <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-                <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-                <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-                <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-                <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-                <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-                <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-                <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-                <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-                <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-                <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-                <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+                <element signature="e#930#981#0#PHP" expanded="false" />
+                <element signature="e#1023#1127#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confirmation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/confirmation.php">
+      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <element signature="n#__construct#0;n#Reservation#0;n#!!top" expanded="false" />
+                <element signature="n#getDestination#0;n#Reservation#0;n#!!top" expanded="false" />
+                <element signature="n#getNumber#0;n#Reservation#0;n#!!top" expanded="false" />
+                <element signature="n#getAssurance#0;n#Reservation#0;n#!!top" expanded="false" />
+                <element signature="n#__construct#0;n#People#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accueil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.Application_Reservation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/1.Application_Reservation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1482276796000" expanded="true" signature="704:774" ph="..." />
+                <marker date="1482276796000" expanded="true" signature="917:1018" ph="..." />
+                <marker date="1482276796000" expanded="true" signature="978:1018" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traitement.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/traitement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.traitement.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/2.traitement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/validation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,45 +116,22 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="51" column="2" lean-forward="false" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#97#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5.database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/5.database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="43" column="62" lean-forward="false" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+            <state relative-caret-position="313">
+              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
-                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1482016772000" expanded="true" signature="665:724" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modifier.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/modifier.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="e#6#97#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="supprimer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/supprimer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#6#97#0#PHP" expanded="true" />
+                <marker date="1482130964000" expanded="true" signature="732:789" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,22 +152,25 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Views/stylesheet.css" />
         <option value="$PROJECT_DIR$/Views/3.validation.php" />
-        <option value="$PROJECT_DIR$/Controllers/validation.php" />
-        <option value="$PROJECT_DIR$/Views/styles.css" />
-        <option value="$PROJECT_DIR$/Controllers/traitement.php" />
-        <option value="$PROJECT_DIR$/accueil.php" />
-        <option value="$PROJECT_DIR$/Views/2.traitement.php" />
         <option value="$PROJECT_DIR$/Views/4.confirmation.php" />
-        <option value="$PROJECT_DIR$/model.php" />
-        <option value="$PROJECT_DIR$/model_sql.php" />
-        <option value="$PROJECT_DIR$/Controllers/confirmation.php" />
         <option value="$USER_HOME$/Documents/ECAM/3BE/E3060 Electronique Analogique/EA3C Laboratoire de simulation de circuits/3be16_isrc_mosmirror/3be16_isrc_mosmirror/3be16_isrc_mosmirror_fr.html" />
-        <option value="$PROJECT_DIR$/Views/1.Application_Reservation.php" />
-        <option value="$PROJECT_DIR$/Controllers/database.php" />
-        <option value="$PROJECT_DIR$/Controllers/modifier.php" />
-        <option value="$PROJECT_DIR$/Controllers/supprimer.php" />
-        <option value="$PROJECT_DIR$/Views/5.database.php" />
         <option value="$PROJECT_DIR$/Bootstrap" />
+        <option value="$PROJECT_DIR$/Controllers/7.supprimer.php" />
+        <option value="$PROJECT_DIR$/Controllers/supprimer.php" />
+        <option value="$PROJECT_DIR$/Views/6.modifier.php" />
+        <option value="$PROJECT_DIR$/model_sql.php" />
+        <option value="$PROJECT_DIR$/Controllers/save.php" />
+        <option value="$PROJECT_DIR$/Views/5.database.php" />
+        <option value="$PROJECT_DIR$/Controllers/modifier.php" />
+        <option value="$PROJECT_DIR$/Controllers/database.php" />
+        <option value="$PROJECT_DIR$/Controllers/confirmation.php" />
+        <option value="$PROJECT_DIR$/accueil.php" />
+        <option value="$PROJECT_DIR$/model.php" />
+        <option value="$PROJECT_DIR$/Controllers/validation.php" />
+        <option value="$PROJECT_DIR$/Views/2.traitement.php" />
+        <option value="$PROJECT_DIR$/Controllers/traitement.php" />
+        <option value="$PROJECT_DIR$/Views/1.Application_Reservation.php" />
+        <option value="$PROJECT_DIR$/Views/styles.css" />
       </list>
     </option>
   </component>
@@ -179,8 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,6 +245,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,9 +255,12 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="FullScreen" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Controllers" />
       <recent name="$PROJECT_DIR$/Views" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -321,18 +348,20 @@
       <workItem from="1481529380369" duration="93000" />
       <workItem from="1481529505689" duration="13006000" />
       <workItem from="1481628802072" duration="1021000" />
-      <workItem from="1481997369419" duration="12470000" />
+      <workItem from="1481997369419" duration="12549000" />
+      <workItem from="1482053842178" duration="14670000" />
+      <workItem from="1482253500642" duration="5605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70327000" />
+    <option name="totallyTimeSpent" value="90681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2539342" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -359,101 +388,38 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/ECAM/3BE/E3060 Electronique Analogique/EA3C Laboratoire de simulation de circuits/3be16_isrc_mosmirror/3be16_isrc_mosmirror/3be16_isrc_mosmirror_fr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model_sql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="e#6#97#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
-            <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1247" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1304" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1337" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1641:1734" ph="INSERT INTO people... " />
+            <marker date="1482100425000" expanded="true" signature="1920:1938" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="1920:1944" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2214" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2222" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2223" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2313:2352" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2544:2583" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2690:2742" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2954:2999" ph="INSERT INTO destinations... " />
           </folding>
         </state>
       </provider>
@@ -462,7 +428,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="n#__construct#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getDestination#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getNumber#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getAssurance#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#__construct#0;n#People#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -470,7 +442,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#930#981#0#PHP" expanded="false" />
+            <element signature="e#1023#1127#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -479,36 +454,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="e#6#97#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1247" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1304" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1337" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1641:1734" ph="INSERT INTO people... " />
+            <marker date="1482100425000" expanded="true" signature="1920:1938" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="1920:1944" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2214" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2222" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2223" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2313:2352" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2544:2583" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2690:2742" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2954:2999" ph="INSERT INTO destinations... " />
           </folding>
         </state>
       </provider>
@@ -525,7 +492,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="n#__construct#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getDestination#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getNumber#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getAssurance#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#__construct#0;n#People#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -534,36 +507,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="e#6#97#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1247" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1304" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1337" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1641:1734" ph="INSERT INTO people... " />
+            <marker date="1482100425000" expanded="true" signature="1920:1938" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="1920:1944" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2214" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2222" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2223" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2313:2352" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2544:2583" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2690:2742" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2954:2999" ph="INSERT INTO destinations... " />
           </folding>
         </state>
       </provider>
@@ -588,7 +553,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="e#930#981#0#PHP" expanded="false" />
+            <element signature="e#1023#1127#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,36 +565,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="e#6#97#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1247" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1304" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1337" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1641:1734" ph="INSERT INTO people... " />
+            <marker date="1482100425000" expanded="true" signature="1920:1938" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="1920:1944" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2214" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2222" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2223" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2313:2352" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2544:2583" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2690:2742" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2954:2999" ph="INSERT INTO destinations... " />
           </folding>
         </state>
       </provider>
@@ -651,7 +611,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="e#930#981#0#PHP" expanded="false" />
+            <element signature="e#1023#1127#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -660,36 +623,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="e#6#97#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1247" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1304" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1337" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1641:1734" ph="INSERT INTO people... " />
+            <marker date="1482100425000" expanded="true" signature="1920:1938" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="1920:1944" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2214" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2222" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2223" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2313:2352" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2544:2583" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2690:2742" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2954:2999" ph="INSERT INTO destinations... " />
           </folding>
         </state>
       </provider>
@@ -763,36 +718,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="e#6#97#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
             <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1247" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1304" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1337" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1641:1734" ph="INSERT INTO people... " />
+            <marker date="1482100425000" expanded="true" signature="1920:1938" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="1920:1944" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2214" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2222" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2223" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2313:2352" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2544:2583" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2690:2742" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2954:2999" ph="INSERT INTO destinations... " />
           </folding>
         </state>
       </provider>
@@ -801,7 +748,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#930#981#0#PHP" expanded="false" />
+            <element signature="e#1023#1127#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,13 +764,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index33.php" />
     <entry file="file://$PROJECT_DIR$/index1.php" />
-    <entry file="file://$PROJECT_DIR$/Views/styles.css">
+    <entry file="file://$PROJECT_DIR$/classTraitement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/ECAM/3BE/E3060 Electronique Analogique/EA3C Laboratoire de simulation de circuits/3be16_isrc_mosmirror/3be16_isrc_mosmirror/3be16_isrc_mosmirror_fr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="141" lean-forward="false" selection-start-line="14" selection-start-column="141" selection-end-line="14" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/4.confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap" />
     <entry file="file://$PROJECT_DIR$/Views/3.validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -829,18 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accueil.php">
+    <entry file="file://$PROJECT_DIR$/Views/7.supprimer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classTraitement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -853,6 +812,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model_sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#6#97#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Database#0;n#!!top" expanded="false" />
+            <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
+            <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
+            <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
+            <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
+            <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
+            <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
+            <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
+            <marker date="1482100425000" expanded="true" signature="1214:1247" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1304" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1214:1337" ph="INSERT INTO ReservationsComplete... " />
+            <marker date="1482100425000" expanded="true" signature="1641:1734" ph="INSERT INTO people... " />
+            <marker date="1482100425000" expanded="true" signature="1920:1938" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="1920:1944" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2214" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2222" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2169:2223" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2313:2352" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2544:2583" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2690:2742" ph="SELECT ${$lo... ${$table}" />
+            <marker date="1482100425000" expanded="true" signature="2954:2999" ph="INSERT INTO destinations... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/supprimer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="65" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding>
+            <element signature="e#6#97#0#PHP" expanded="true" />
+            <marker date="1482099453000" expanded="true" signature="384:424" ph="DELETE FROM " />
+            <marker date="1482099453000" expanded="true" signature="384:425" ph="DELETE FROM " />
+            <marker date="1482099453000" expanded="true" signature="384:434" ph="DELETE FROM " />
+            <marker date="1482099453000" expanded="true" signature="384:435" ph="DELETE FROM " />
+            <marker date="1482099453000" expanded="true" signature="384:443" ph="DELETE FROM " />
+            <marker date="1482099453000" expanded="true" signature="384:578" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <marker date="1482130266000" expanded="true" signature="646:741" ph="DELETE FROM " />
+            <marker date="1482130266000" expanded="true" signature="646:743" ph="DELETE FROM " />
+            <marker date="1482130266000" expanded="true" signature="748:772" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/annulation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -861,152 +879,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.php">
+    <entry file="file://$PROJECT_DIR$/Views/6.modifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="435">
+          <caret line="29" column="70" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/ECAM/3BE/E3060 Electronique Analogique/EA3C Laboratoire de simulation de circuits/3be16_isrc_mosmirror/3be16_isrc_mosmirror/3be16_isrc_mosmirror_fr.html">
+    <entry file="file://$PROJECT_DIR$/Controllers/modifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="141" lean-forward="false" selection-start-line="14" selection-start-column="141" selection-end-line="14" selection-end-column="141" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/1.Application_Reservation.php">
+    <entry file="file://$PROJECT_DIR$/Views/5.database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/4.confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="313">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
-            <element signature="n#OpenDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddDestination#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddReservation#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#AddPeople#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#Select2#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#Select#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#Insert#0;n#Database#0;n#!!top" expanded="false" />
-            <element signature="n#CloseDatabase#0;n#Database#0;n#!!top" expanded="false" />
-            <marker date="1481558325000" expanded="true" signature="1738:1784" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1823" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="1738:1856" ph="INSERT INTO ReservationsComplete... " />
-            <marker date="1481558325000" expanded="true" signature="2250:2288" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2298" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2307" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2250:2308" ph="SELECT * FRO... people" />
-            <marker date="1481558325000" expanded="true" signature="2370:2463" ph="INSERT INTO people... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2627" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2637" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2646" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2581:2656" ph="UPDATE peopl... " />
-            <marker date="1481558325000" expanded="true" signature="2870:2888" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="2870:2894" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3164" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3172" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3119:3173" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3263:3302" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3494:3533" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3640:3692" ph="SELECT ${$lo... ${$table}" />
-            <marker date="1481558325000" expanded="true" signature="3904:3949" ph="INSERT INTO destinations... " />
+            <marker date="1482130964000" expanded="true" signature="732:789" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="51" column="2" lean-forward="false" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+        <state relative-caret-position="90">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/2.traitement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        <state relative-caret-position="720">
+          <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/traitement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/supprimer.php">
+    <entry file="file://$PROJECT_DIR$/Controllers/confirmation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="e#930#981#0#PHP" expanded="false" />
+            <element signature="e#1023#1127#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/modifier.php">
+    <entry file="file://$PROJECT_DIR$/model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
+            <element signature="n#__construct#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getDestination#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getNumber#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#getAssurance#0;n#Reservation#0;n#!!top" expanded="false" />
+            <element signature="n#__construct#0;n#People#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/5.database.php">
+    <entry file="file://$PROJECT_DIR$/accueil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="62" lean-forward="false" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/1.Application_Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="67" lean-forward="false" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1482016772000" expanded="true" signature="665:724" ph="..." />
+            <element signature="n#style#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1482276796000" expanded="true" signature="704:774" ph="..." />
+            <marker date="1482276796000" expanded="true" signature="917:1018" ph="..." />
+            <marker date="1482276796000" expanded="true" signature="978:1018" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap">
+    <entry file="file://$PROJECT_DIR$/Views/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>

@@ -1,14 +1,19 @@
 <?php
 include_once('/Applications/MAMP/htdocs/ApplicationReservation/model.php');
-session_start();
-
+if(!isset($_SESSION))
+{
+    session_start();
+}
 try {
-    if(isset($_POST['destination'])===FALSE){
-        throw new Exception($_POST['destination']);
+    if(!isset($_POST['destination'])){
+        if ($page="validation") {
+            throw new Exception();
+        }
     }
     else {
-        $dest=$_POST['destination'];
-        $num=$_POST['number'];
+        $dest=strip_tags( trim($_POST['destination']));
+        $dest=preg_replace('/[^\p{L}\-]/u', '', $dest);
+        $num=(int)$_POST['number'];
         if (!ISSET($_POST['assurance']))
         {$assur='false';}
         else {$assur='true';}

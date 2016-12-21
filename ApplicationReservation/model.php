@@ -37,15 +37,18 @@ class Reservation
 
 class People
 {
-    private $lastname;
-    private $firstname;
-    private $age;
+    private $lastname="";
+    private $firstname="";
+    private $age="";
 
     public function __construct($lastname,$firstname,$age)
     {
         $this->lastname=$lastname;
         $this->firstname=$firstname;
         $this->age=$age;
+    }
+    public function PrintPeople() {
+        return $this->firstname." ".$this->lastname." ".$this->age;
     }
 }
 ?>
