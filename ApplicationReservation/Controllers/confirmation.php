@@ -1,13 +1,12 @@
 <?php
-//Starting the session
 if(!isset($_SESSION))
 {
     session_start();
 }
 
 //Finding today's date to give the limit payment date (today+2weeks)
-$todaysdate=strtotime('today');
-$paydate=strtotime("+2 weeks", $todaysdate);
+$todays_date=strtotime('today');
+$pay_date=strtotime("+2 weeks", $todays_date);
 
 //using the view "confirmation"
 include_once('/Applications/MAMP/htdocs/ApplicationReservation/views/4.confirmation.php');
@@ -16,31 +15,31 @@ include_once('/Applications/MAMP/htdocs/ApplicationReservation/model_sql.php');
 
 //Getting the basic informations from the SESSION
 $destination=$_SESSION['reservation'][0];
-$assurance=$_SESSION['reservation'][2];
+$insurance=$_SESSION['reservation'][2];
 
 //Opening the Database
 //Creating the Database $db
 $db=new Database();
 
-//Opening the $db: open database = $mydb
-$mydb=$db->OpenDatabase($db);
+//Opening the $db: open database = $my_db
+$my_db=$db->OpenDatabase();
 //Starting to fill the Database
 //  ReservationsComplete
-$test=$db->AddReservation($mydb,$destination,$assurance);
+$test=$db->AddReservation($my_db,$destination,$insurance);
 
-//  => getting the resID
-$resID=$db->Select2($mydb,'*','ReservationsComplete');
-foreach ($resID as $row)
+//  => getting the res_id
+$res_id=$db->Select2($my_db,'*','ReservationsComplete');
+foreach ($res_id as $row)
 {
-    $ID=$row['ResID'];
+    $id=$row['ResID'];
 }
 
 //  People
 $persons=$_SESSION['names'];
 foreach($persons as $people)
 {
-    $result=$db->AddPeople($people[0],$people[1],$people[2],$mydb,$ID);
+    $result=$db->AddPeople($people[0],$people[1],$people[2],$my_db,$id);
 }
 
 //Closing the database
-$db->CloseDatabase($mydb);
+$db->CloseDatabase();

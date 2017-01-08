@@ -14,16 +14,16 @@ $password="root";
 
 //Creating the Database $db
 $db=new Database($database);
-$mydb=$db->OpenDatabase($db);
+$my_db=$db->OpenDatabase($db);
 
-$ResID=$_POST["Res"];
-$del='DELETE FROM `ReservationsComplete` WHERE `ResID` = '.$ResID;
-if ($mydb->query($del)===TRUE)
+$res_id=$_POST["res"];
+$del='DELETE FROM `ReservationsComplete` WHERE `ResID` = '.$res_id;
+if ($my_db->query($del)===TRUE)
 {
     echo "record deleted successfully";
 }
 else {
-    echo "Error deleting record: ".$mydb->error;
+    echo "Error deleting record: ".$my_db->error;
 }
 
 

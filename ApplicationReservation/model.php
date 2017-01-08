@@ -4,13 +4,13 @@ class Reservation
 {
   private $destination="";
   private $number=0;
-  private $assurance=false;
+  private $insurance=false;
 
-  public function __construct($destination,$number,$assurance)
+  public function __construct($destination,$number,$insurance)
   {
     $this->destination=$destination;
     $this->number=$number;
-    $this->assurance=$assurance;
+    $this->insurance=$insurance;
   }
 
   public function getDestination()
@@ -29,9 +29,9 @@ class Reservation
 
   }
 
-  public function getAssurance()
+  public function getinsurance()
   {
-    return $this->assurance;
+    return $this->insurance;
   }
 }
 
@@ -51,4 +51,11 @@ class People
         return $this->firstname." ".$this->lastname." ".$this->age;
     }
 }
-?>
+
+function secure($data)
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}

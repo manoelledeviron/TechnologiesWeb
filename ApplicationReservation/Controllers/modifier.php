@@ -7,27 +7,32 @@
  */
 include_once('/Applications/MAMP/htdocs/ApplicationReservation/model_sql.php');
 include_once('/Applications/MAMP/htdocs/ApplicationReservation/model.php');
+if (!isset($_SESSION))
+{
+    session_start();
+}
 
 //Creating the Database $db
 $db=new Database();
-$mydb=$db->OpenDatabase($db);
+$my_db=$db->OpenDatabase($db);
 
-$ResID=$_POST["Res"];
-$_SESSION['res']=$ResID;
-$request=$db->Select($mydb,'*','people','ResID',$ResID);
-$res=$db->Select($mydb,'*','ReservationsComplete','ResID',$ResID);
+$res_id=$_POST["res"];
+$_SESSION['res']=$res_id;
+
+$request=$db->Select($my_db,'*','people','ResID',$res_id);
+$res=$db->Select($my_db,'*','ReservationsComplete','ResID',$res_id);
 
 $num=mysqli_num_rows($res);
-$assur=mysqli_fetch_row($res);
-var_dump($assur);
-$assur=$assur[2];
+$insur=mysqli_fetch_row($res);
 
-$peopleIDs=array();
+$insur=$insur[2];
+$people=array();
 foreach ($request as $row) {
-    array_push($peopleIDs,$row['PeopleID']);
-    var_dump($row);
+    $person=array();
+    $thisone=$row['FirstName']." ".$row['LastName']." ".$row['Age'];
+    $people[$row['PeopleID']]=$thisone;
 }
-$_SESSION['PeopleIDs']=$peopleIDs;
-$_SESSION['assur']=$assur;
+$_SESSION['People']=$people;
+$_SESSION['insurance']=$insur;
 
 include_once('/Applications/MAMP/htdocs/ApplicationReservation/views/6.modifier.php');

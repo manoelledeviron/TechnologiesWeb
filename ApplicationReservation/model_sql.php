@@ -23,7 +23,7 @@ class Database
     }
 
     //Opens the Database, from a Database object
-    public function OpenDatabase($database) {
+    public function OpenDatabase() {
         $mysqli = new mysqli($this->host,$this->user,$this->password,$this->database);
 
         if (!$mysqli)
@@ -40,9 +40,9 @@ class Database
 
     }
 
-    //Adding a reservation to the Database ReservationsComplete(ResID,DestID,Assurance) => Auto-Increment of the ResID
-    public function AddReservation($database,$destination,$assurance) {
-        $mysql="INSERT INTO ReservationsComplete(Destination,Assurance) VALUES ('$destination',$assurance)";
+    //Adding a reservation to the Database ReservationsComplete(ResID,DestID,insurance) => Auto-Increment of the ResID
+    public function AddReservation($database,$destination,$insurance) {
+        $mysql="INSERT INTO ReservationsComplete(Destination,insurance) VALUES ('$destination',$insurance)";
         $sql=$database->query($mysql);
         if (!$sql)
         {
@@ -99,8 +99,9 @@ class Database
     }
 
     //Closing the Database
-    public function CloseDatabase($database) {
-        mysqli_close($database);
+    public function CloseDatabase() {
+        $mysqli = new mysqli($this->host,$this->user,$this->password,$this->database);
+        mysqli_close($mysqli);
     }
 }
 ?>

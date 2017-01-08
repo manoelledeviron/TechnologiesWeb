@@ -3,13 +3,13 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="/ApplicationReservation/views/styles.css">
 
-	<title>Détail</title>
+	<title>Detail</title>
 
 </head>
 
 <body>
 
-<h1>Détail des réservations en cours</h1>
+<h1>Details of ongoing reservations</h1>
 <hr>
 
 <form action='validation.php' method = 'post'>
@@ -31,37 +31,37 @@ for ($i = 0; $i < $res[1]; $i++) {
     ?>
     <table>
         <tr>
-            <td>Nom</td>
-            <td><input type="text" name="lastname[]" placeholder="Lastname" value="<?php echo $person[0]?>" required></td>
+            <td>Last name</td>
+            <td><input type="text" name="lastname[]" placeholder="Lastname" value="<?php echo htmlspecialchars($person[0])?>" required></td>
         </tr>
 
         <br>
 
         <tr>
-            <td>Prénom</td>
-            <td><input type="text" name="firstname[]" placeholder="Firstname" value="<?php echo $person[1]?>" required></td>
+            <td>First name</td>
+            <td><input type="text" name="firstname[]" placeholder="Firstname" value="<?php echo htmlspecialchars($person[1])?>" required></td>
         </tr>
 
         <br>
 
         <tr>
             <td> Age </td>
-            <td><input type="number" name="age[]" min="0" max="130" placeholder="0" value="<?php echo $person[2]?>" required></td>
+            <td><input type="number" name="age[]" min="0" max="130" placeholder="0" value="<?php echo (int)$person[2]?>" required></td>
         </tr>
 
     </table>
     <?php
 }?>
 
- 	<input type='submit' value='Etape suivante'/>
+ 	<input type='submit' value='Next step'/>
 </form>
 
 <form method='post' action='/ApplicationReservation/accueil.php' name="page" value="">
- 	<input type='submit' value='Retour à la page précédente'/>
+ 	<input type='submit' value='Go back'/>
 </form>
 
 <form method='post' action='annulation.php' name="page" value="annulation">
- 	<input type='submit' value='Annuler la réservation'/>
+ 	<input type='submit' value='Cancel the reservation'/>
 </form>
 
 </body>

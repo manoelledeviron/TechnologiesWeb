@@ -9,14 +9,14 @@
 
 <body>
 
-<h1>Validation des réservations</h1>
+<h1>Validation of the reservations</h1>
 <hr>
 
 <table>
     <tr>
         <th> Destination </th>
-        <th>Nombre de places</th>
-        <th>Assurance Annulation</th>
+        <th>Number of places</th>
+        <th>Cancelling insurance</th>
     </tr>
 
     <tr>
@@ -29,8 +29,8 @@
 
 <table>
     <tr>
-        <th>Noms</th>
-        <th>Prénoms</th>
+        <th>Last names</th>
+        <th>First names</th>
         <th>Ages</th>
         <th>Under 12?</th>
     </tr>
@@ -53,15 +53,15 @@ for ($j=0;$j<count($_SESSION['names']);$j++)
 </table>
 
  <form method='post' action='confirmation.php' name="page" value="confirmation">
- 	<input type='submit' value='Etape suivante'/>
+ 	<input type='submit' value='Next step'/>
 </form>
 
 <form method='post' action='traitement.php' name="page" value="traitement">
- 	<input type='submit' value='Retour à la page précédente'/>
+ 	<input type='submit' value='Go back'/>
 </form>
 
 <form method='post' action='annulation.php' name="page" value="annulation">
- 	<input type='submit' value='Annuler la réservation'/>
+ 	<input type='submit' value='Cancel the reservation'/>
 </form>
 
 </body>

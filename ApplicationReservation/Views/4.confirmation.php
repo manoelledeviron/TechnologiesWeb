@@ -9,12 +9,12 @@
 
 <body>
 
-<h1> Réservations effectuées</h1>
+<h1> Reservations done</h1>
 <hr>
 
 <?php
 $num=$_SESSION['reservation'][1];
-$assurance=$_SESSION['reservation'][2];
+$insurance=$_SESSION['reservation'][2];
 $people=$_SESSION['names'];
 $price=0;
 
@@ -29,21 +29,21 @@ for ($i=0;$i<$num;$i++)
 		$price=$price+15;
 	}
 }
-if ($assurance=='true')
+if ($insurance=='true')
 {
 	$price=$price+20;
 }
 $account="BE99 0123 4567 8910";
 ?>
 
-<p>Votre demande a bien été enregistrée. </p>
-<p>Merci de bien vouloir verser la somme de <b><?php echo $price?> euros</b> sur le compte <b><?php echo $account?></b> pour la date
-    du <b><?php echo date("d-m-Y",$paydate)?></b>.</p>
-<p>Vous recevrez les billets par mail lorsque nous aurons reçu la somme due.</p>
-<p>Bon voyage!</p>
+<p>Your request has been saved. </p>
+<p>Now you just have to pay the amount of <b><?php echo $price?> euros</b> on the bank account <b><?php echo $account?></b> before
+     <b><?php echo date("m-d-Y",$pay_date)?></b>.</p>
+<p>You will receive an e-mail with the tickets as soon as we get the amount due.</p>
+<p>Enjoy your trip with our travel agency!</p>
 
 <form method='post' action='/ApplicationReservation/accueil.php' name="page" value="">
- 	<input type='submit' value='Retour à la page d&#39;accueil'>
+ 	<input type='submit' value='Back to the homepage'>
 </form>
 
 </body>

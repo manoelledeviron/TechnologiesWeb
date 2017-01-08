@@ -1,7 +1,10 @@
-<?
+<?php
 //100% php
-session_start();
+if (!isset($_SESSION)) {
+    session_start();
+}
+//This step deletes everything from the Session
 session_unset();
-session_destroy();
+//Going back to the homepage
 header('Location: /ApplicationReservation/index.php');
- ?>
+

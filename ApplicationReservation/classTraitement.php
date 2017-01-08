@@ -1,14 +1,14 @@
 <?php
 class Traitement
 {
-  public function reservation($dest,$number,$assurance)
+  public function reservation($dest,$number,$insurance)
   {
     $_SESSION['destination']=$dest;
     $_SESSION['number']=$number;
-    if (isset($_POST['assurance']))
-    {$_SESSION['assurance']='Yes';}
+    if (isset($_POST['insurance']))
+    {$_SESSION['insurance']='Yes';}
     else
-    {$_SESSION['assurance']='No';}
+    {$_SESSION['insurance']='No';}
   }
 
   function validation($names,$ages)
